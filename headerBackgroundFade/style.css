@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Popins";
+  src: url("../../PopinsFont/Poppins-Regular.ttf") format("opentype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Popins", sans-serif;
+}
+body {
+  background: #000;
+}
+.header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #000;
+}
+.header #bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(bg.jpg);
+}
+section {
+  padding: 100px;
+  color: #fff;
+}
+section h2 {
+  font-size: 3em;
+}
+section p {
+  font-size: 1.2em;
+}
+
+.bg-text {
+  color: #fff;
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.bg-text span {
+  text-decoration: line-through;
+}
