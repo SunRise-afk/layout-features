@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Header Background Fade On Scroll</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <h2 id="rangeValue">0</h2>
+      <div id="fillRangeValue"></div>
+      <input
+        type="range"
+        class="range"
+        name=""
+        value="0"
+        min="0"
+        max="100"
+        onmousemove="rangeSlider(this.value)"
+        onchange="rangeSlider(this.value)"
+      />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
